@@ -1,0 +1,19 @@
+{
+    "records":[
+                {
+                    "Name":"Deepanshu",
+                    "Age":24,
+                    "Fav_color":"black" 
+                },
+                {
+                    "Name":"Alex",
+                    "Age":22,
+                    "Fav_color":"black"
+                },
+                {
+                    "Name":"Sonal",
+                    "Age":24,
+                    "Fav_color":"black" 
+                }        
+            ]
+    }

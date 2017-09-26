@@ -1,0 +1,16 @@
+<!Doctype html>
+<html ><!--  ng stands for Angular*--> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular JS| Filter</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    </head>
+<body ng-app="">
+    Your Name:<input type="text" ng-model="name"/><br>
+    Welcome {{name | uppercase}}
+    Welcome {{name | lowercase}}
+    Price: <input type="text" ng-model="price"/>
+    Price is {{price| currency:"Rs.":5}} <!-- by default it will show 2 decimal places--><br>
+    Price with number formatting is {{price| number:2}}
+</body>
+</html>

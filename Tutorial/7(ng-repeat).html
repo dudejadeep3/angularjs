@@ -1,0 +1,15 @@
+<!Doctype html>
+<html ><!--  ng stands for Angular*--> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular JS| Hands On</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    </head>
+<body ng-app="">
+    <div ng-init="myFavLan=[{name:'PHP',extension:'.php'},{name:'Javascript',extension:'.js'},{name:'Ruby',extension:'.rb'}]">
+    <p ng-repeat="language in myFavLan" >
+        Name: {{language.name}}</br>
+        Extension: {{language.extension}}
+    </p>
+</body>
+</html>

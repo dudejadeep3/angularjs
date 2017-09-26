@@ -1,0 +1,15 @@
+<!Doctype html>
+<html ><!--  ng stands for Angular*--> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular JS| Custom Filter</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+        <script src="script37.js"></script>
+    </head>
+<body ng-app="mainApp" ng-controller="app">
+    Number: <input type="text" ng-model="number"><br>
+    Base: <input type="text" ng-model="baseNumber"> <br>
+
+    Your Number {{number}} in base {{base}} is {{number | base:baseNumber}}
+</body>
+</html>

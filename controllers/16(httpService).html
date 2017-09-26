@@ -1,0 +1,19 @@
+<!Doctype html>
+<html ><!--  ng stands for Angular*--> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular JS| http Service</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+        <script src="controller_16.js"></script>
+    </head>
+<body ng-app="mainApp">
+    <div ng-controller="people">
+            <h2>Names and Age of Programmers in the local area</h2>
+            <ol>
+                <li ng-repeat="person in persons">
+                    {{person.Name + ':'+ person.Age}}   
+                </li>
+            </ol>
+    </div>
+</body>
+</html>
